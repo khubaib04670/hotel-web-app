@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Grand Hotel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Grand Hotel</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Rooms</a></li>
+                <li><a href="#">Facilities</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-overlay">
+            <h2>Welcome to Grand Hotel</h2>
+            <p>Experience luxury and comfort like never before.</p>
+        </div>
+    </section>
+
+    <section class="rooms">
+        <h2>Our Rooms</h2>
+        <div class="room-card">
+            <h3>Deluxe Room</h3>
+            <p>King-size bed, ocean view, free Wi-Fi.</p>
+        </div>
+        <div class="room-card">
+            <h3>Suite</h3>
+            <p>Spacious suite with living area and balcony.</p>
+        </div>
+        <div class="room-card">
+            <h3>Standard Room</h3>
+            <p>Comfortable room with all basic amenities.</p>
+        </div>
+    </section>
+
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <p>Email: info@grandhotel.com | Phone: +1 234 567 890</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Grand Hotel. All rights reserved.</p>
+        <p>Last updated: <span id="time"></span></p>
+    </footer>
+
+    <script>
+        document.getElementById('time').innerText = new Date().toLocaleString();
+    </script>
+</body>
+</html>
